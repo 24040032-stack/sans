@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+h1, h2 {
+    color: #6a0dad;
+}
+.botones {
+    margin: 20px 0;
+}
+.botones button {
+    background: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.botones button:hover {
+    background: #530a9a;
+}
+.entrada {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    background: #fff;
+    text-align: left;
+}
+form {
+    background: #e8d6ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+input[type="submit"], .extra-btn {
+    background: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover, .extra-btn:hover {
+    background: #530a9a;
+}
+.mensaje {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
